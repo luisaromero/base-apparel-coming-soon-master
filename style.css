@@ -1,0 +1,23 @@
+
+/* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+
+@font-face{
+    src: url(./assets/font/JosefinSans-Italic-VariableFont_wght.ttf);
+    font-family: "JosefinSans";
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#container{
+    height:10vh;
+    font-family: "JosefinSans";
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+#img_woman{
+    width: 100%;
+    height:10vh;
+}
